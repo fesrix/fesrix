@@ -2,20 +2,19 @@
 
 # Software development & automation
 
-I build Python automations and TypeScript web applications. My automation work covers collecting data, processing media, scheduling jobs, and tracking what each run publishes.
+I build booking tools for schools and automation for media publishing. My current projects use TypeScript and PostgreSQL for web applications, and Python and GitHub Actions for scheduled pipelines.
 
-## Featured project
+## Featured projects
+
+### [Observe](https://github.com/fesrix/observe-public)
+
+A self-hosted portal for teacher-training classroom observations. Staff publish recurring schedules, students reserve seats, and reviewers can read booking history and feedback. The portal uses Jalali dates and checks capacity and overlapping reservations in PostgreSQL.
+
+**Stack:** TypeScript, Next.js, PostgreSQL, Prisma · [Setup guide](https://github.com/fesrix/observe-public#quick-start)
 
 ### [Footballi Bot](https://github.com/fesrix/footballi-bot)
 
-A Python pipeline for publishing football videos and Shorts to YouTube. It handles media processing, thumbnails, upload scheduling, and post-publish analytics.
+A scheduled pipeline that discovers football clips and publishes videos and Shorts to YouTube. It processes media, prepares thumbnails and metadata, and tracks upload history and channel analytics.
 
-[Browse the source](https://github.com/fesrix/footballi-bot) · [View GitHub Actions runs](https://github.com/fesrix/footballi-bot/actions)
+**Stack:** Python, FFmpeg, GitHub Actions · [Workflow runs](https://github.com/fesrix/footballi-bot/actions)
 
-## Tools I work with
-
-| Area | Tools |
-| --- | --- |
-| Automation and media | Python, FFmpeg |
-| Web applications | TypeScript |
-| Scheduled workflows | GitHub Actions |
